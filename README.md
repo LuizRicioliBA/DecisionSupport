@@ -44,19 +44,11 @@ Diferentemente de abordagens baseadas em Aprendizado de Máquina opaco (*caixa-p
 
 ---
 
-## 🛠️ Stack Tecnológica
+## 📑 Como funciona
 
-### **Frontend & Arquitetura Web**
-- **Vanilla JavaScript (ES6+):** Código nativo puro sem a sobrecarga de *frameworks* pesados, garantindo controle direto da memória e manipulação do DOM.
-- **Vite:** Ferramenta de compilação e empacotamento ágil para *Single Page Applications (SPA)*.
-- **Chart.js:** Renderização gráfica de alta performance sobre *Canvas HTML5*.
-- **jsPDF & jspdf-autotable:** Compilação e diagramação de relatórios *PDF* no lado do cliente.
-
-### **Backend, Banco de Dados & Segurança**
-- **Supabase (BaaS):** Plataforma de persistência e autenticação em nuvem.
-- **PostgreSQL:** Banco de dados relacional normalizado na **3FN**.
-- **Row Level Security (RLS):** Segurança declarativa em nível de linha no *PostgreSQL* acionada por `auth.uid()`.
-- **Web Crypto API (`crypto.subtle`):** Algoritmo *SHA-256* nativo para assinatura digital de relatórios.
+1. Cadastre a organização e as áreas que participarão da análise.
+2. Informe os indicadores de necessidade, urgência, impacto e retorno, além do capital disponível.
+3. Execute a simulação para visualizar as prioridades, a sugestão de distribuição dos recursos e os relatórios gerados.
 
 ## 🗄️ Modelo do Banco de Dados (DER)
 
