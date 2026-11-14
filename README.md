@@ -1,4 +1,4 @@
-# 📊 DecisionSupport — Sistema de Apoio à Decisão (SAD)
+# 📊 CryptDecision (SAD)
 
 > **Plataforma Web para Alocação Estratégica de Capital Corporativo baseada em Análise Decisória Multicritério, Segurança Multitenant (RLS) e Auditabilidade Criptográfica (SHA-256).**
 
