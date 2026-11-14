@@ -58,24 +58,6 @@ Diferentemente de abordagens baseadas em Aprendizado de Máquina opaco (*caixa-p
 - **Row Level Security (RLS):** Segurança declarativa em nível de linha no *PostgreSQL* acionada por `auth.uid()`.
 - **Web Crypto API (`crypto.subtle`):** Algoritmo *SHA-256* nativo para assinatura digital de relatórios.
 
----
-
-## 🏗️ Arquitetura do Sistema
-
-
-[ Cliente (Navegador SPA) ]
-       │
-       ├── Router (router.js) ─────────> Controle de Rotas e Route Guards
-       ├── API Facade (api.js) ────────> Chamadas Assíncronas (Fetch / HTTPS)
-       ├── Motor SAD (businessRules.js) ──> Normalização Min-Max + Média Ponderada
-       └── Criptografia (security.js) ─> Geração de Hash SHA-256 no Cliente
-       │
-       ▼ (Cabeçalho HTTP + Bearer Token JWT)
-[ Supabase BaaS ]
-       │
-       └── PostgreSQL Engine ──────────> Filtro RLS Nativo (owner_id = auth.uid())
-       ---
-
 ## 🗄️ Modelo do Banco de Dados (DER)
 
 A estrutura relacional foi projetada no **PostgreSQL** e hospedada no **Supabase**, garantindo integridade referencial e normalização em **3FN**:
