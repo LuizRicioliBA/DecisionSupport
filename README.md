@@ -87,16 +87,3 @@ A estrutura relacional foi projetada no **PostgreSQL** e hospedada no **Supabase
 - **`business_rules`**: Pesos estratégicos e travas de teto por empresa.
 - **`analyses` & `analysis_results`**: Histórico de simulações, notas calculadas e verbas alocadas.
 
----
-
-## 🔧 Configuração e Execução Local
-
-### **Pré-requisitos**
-- **Node.js** (versão 18 ou superior)
-- Gerenciador de pacotes **`npm`**
-
-### **Passo a Passo para Rodar o Projeto**
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/SEU-USUARIO/decisionsupport.git
